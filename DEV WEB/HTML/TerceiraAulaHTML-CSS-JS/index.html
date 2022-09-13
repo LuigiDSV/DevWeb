@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <h3>Exemplo de tabela</h3>
+    <table style="border: 2px solid rgb(41, 220, 251);">
+        <thead>
+            <th>Nome</th>
+            <th>CPF</th>
+            <TH>Telefone</TH>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Lucas</td>
+                <td>11111111111</td>
+                <td>19391293921</td>
+            </tr>
+            <tr>
+                <td>Luan</td>
+                <td>11231231111</td>
+                <td>11231231921</td>
+            </tr>
+            <tr>
+                <td>Leonardo</td>
+                <td>14565656451</td>
+                <td>76756443921</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr style="border: 1px solid royalblue">
+    <h3>Exemplo de lista desordenada</h3>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+    <h3>Exemplo de lista ordenada</h3>
+    <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+
+    <form method="post">
+        <!-- action = URL or URI | method = -->
+        <!-- ações assíncronas dentro de um sistema podem servir como uma camada extra de segurança para o sistema.
+        os dados são verificados antes de serem enviados para o back-end - usa-se AJAX para isso -->
+        <label for="nome">Nome: </label>
+        <input type="text" name="inputLegal0" id="nome">
+        </br>
+        <label for="Email">Email: </label>
+        <input type="email" name="inputLegal1" id="Email">
+        </br>
+        <label for="CPF">CPF: </label>
+        <input type="number" name="inputLegal2" id="CPF" placeholder="somente nº">
+        </br>
+        <label for="telefone">Telefone: </label>
+        <input type="text" name="inputLegal3" id="telefone">
+        </br>
+        <label for="data">Data de nascimento: </label>
+        <input type="date" name="inputLegal4" id="data">
+        </br>
+        <!--<input type="submit" value="Enviar">-->
+        <button type="submit">Enviar</button>
+        </br>
+        <input type="submit" value="Limpar">
+    </form>
+    <!--
+         post = esconde a uri 
+         get = mostra a uri
+    -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36588.50592267826!2d-50.409289724307904!3d-26.17954362754779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e7127e5e9ea279%3A0x35cef8ef1c2e7669!2sCanoinhas%2C%20SC%2C%2089460-000!5e1!3m2!1spt-BR!2sbr!4v1662645470202!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</body>
+<tfoot>
+    <h1>123</h1>
+</tfoot>
+
+</html>
